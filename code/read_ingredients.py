@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-from code.recipes import ingredient_collector as ic
-from code.recipes.utils import dict_to_df
+from recipes import ingredient_collector as ic
+from recipes.utils import dict_to_df
 import pandas as pd
 
 ingredients, ing_counts = ic.get_all_ingredients()
