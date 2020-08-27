@@ -20,6 +20,8 @@ for line in lines:
             supers[ing.strip().lower()] = super_ing
     prev_line = line
 
+
+# The information in super ingredients file is useless
 def get_super_ingredient(ingredient):
     try:
         return supers[ingredient]
