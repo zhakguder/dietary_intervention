@@ -17,4 +17,4 @@ print(one_hot_encoding)
 # df.columns = ['ingredient', 'code', 'count']
 # df = df.set_index('ingredient')
 
-# df.to_csv('data/recipes/foodcom/all_ingredients.csv')
+# df.to_csv('../data/recipes/foodcom/all_ingredients.csv')
